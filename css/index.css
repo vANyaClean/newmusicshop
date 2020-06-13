@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Odibee+Sans&display=swap');
+body{
+    font-family: 'Odibee Sans', cursive;
+    max-width: 1300px;
+    margin:auto;
+}
+body nav .logo{
+    font-family: 'Metal Mania', cursive;
+    font-size: 40px;
+}
+body #navbarxui{
+    background-color:crimson;
+}
+body nav #navbarElements .navbar-nav{
+ font-size: 20px;
+}
+body nav #navbarElements .navbar-logo{
+    margin-left: 700px;
+}
+body .contacts{
+    display: flex;
+    justify-content: space-between;
+}
+body .about-us{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1000px;
+height: 600px;
+align-items: center;
+margin :auto;    
+
+}
+body .about-us .guitar-about-us{
+    width: 600px;
+    margin-right: 100px;
+}
+
