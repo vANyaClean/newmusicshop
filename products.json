@@ -1,0 +1,307 @@
+[
+    {
+     "id":"1",
+     "title":"Gibson Les Paul",
+     "image":"img/lespaul.jpg",
+     "description":"The very best electric guitar classics",
+     "category":"guitar",
+     "price":759.99
+    },
+    {
+     "id":"2",
+     "title":"Ibanez Bass",
+     "image":"img/bass.jpg",
+     "description":"Good Ibanez bass",
+     "category":"guitar",
+     "price":559.99
+    },
+    {
+        "id":"3",
+        "title":"Hohner Electric JVS",
+        "image":"img/elec-acc.jpg",
+        "description":"Hohner electic-acoustic guitar",
+        "category":"guitar",
+        "price":599.99
+       },
+       {
+        "id":"4",
+        "title":"Ukulele Set",
+        "image":"img/ukulele.jpg",
+        "description":"The set of the hawaian traditional ukulele guitars",
+        "category":"guitar",
+        "price":500
+       },
+       {
+        "id":"5",
+        "title":"Domra",
+        "image":"img/domra.jpg",
+        "description":"Traditional slav string instument",
+        "category":"guitar",
+        "price":400.99
+       },
+       {
+        "id":"6",
+        "title":"Hohner Acc",
+        "image":"img/acordeon.jpg",
+        "description":"Classic acordeon with nice sound",
+        "category":"keyboard",
+        "price":460.99
+       },
+       {
+        "id":"7",
+        "title":"Yamaha SG-325",
+        "image":"img/electrickeyboard.jpg",
+        "description":"Legendary electic keybord by Yamaha",
+        "category":"keyboard",
+        "price":800
+       },
+       {
+        "id":"8",
+        "title":"Boston Pianos",
+        "image":"img/organ.jpg",
+        "description":"Boston Pianos oak organ ",
+        "category":"keyboard",
+        "price":1499.99
+       },
+       {
+        "id":"9",
+        "title":"Steinway Piano",
+        "image":"img/piano.jpg",
+        "description":"Legendary steinway piano",
+        "category":"guitar",
+        "price":300000
+       },
+       {
+        "id":"10",
+        "title":"Roland Drums",
+        "image":"img/drums.jpg",
+        "description":"Classic roland drums",
+        "category":"drums",
+        "price":759.99
+       },
+       {
+        "id":"11",
+        "title":"African Bongo drums",
+        "image":"img/bongo.jpg",
+        "description":"The traditional african bongo drums",
+        "category":"drums",
+        "price":249.99
+       },
+       {
+        "id":"12",
+        "title":"Roland electric drumset",
+        "image":"img/electricdrums.jpg",
+        "description":"Good for apartment,electric drums",
+        "category":"drums",
+        "price":500.99
+       },
+       {
+        "id":"13",
+        "title":"Chinese Gong",
+        "image":"img/gong.jpg",
+        "description":"The traditional chinese gong",
+        "category":"drums",
+        "price":700
+       },
+       {
+        "id":"14",
+        "title":"CP tambourine",
+        "image":"img/tambo.jpg",
+        "description":"Hippie beloved instument",
+        "category":"drums",
+        "price":150.99
+       },
+       {
+        "id":"15",
+        "title":"Handcrafted Hangdrum",
+        "image":"img/hang.jpg",
+        "description":"Alternative spiritualy ambient instument very charming",
+        "category":"drums",
+        "price":600
+       },
+       {
+        "id":"16",
+        "title":"Classic timpani",
+        "image":"img/litavr.jpg",
+        "description":"Just the timpani drums",
+        "category":"drums",
+        "price":349.99
+       },
+       {
+        "id":"17",
+        "title":"Elton Xylophone",
+        "image":"img/xylo.jpg",
+        "description":"Chromed plates xylo,very good sound",
+        "category":"drums",
+        "price":413.99
+       },
+       {
+        "id":"18",
+        "title":"Clarnet",
+        "image":"img/clarnet.jpg",
+        "description":"Good cheery-tree clarnet",
+        "category":"wind",
+        "price":349.99
+       },
+       {
+        "id":"19",
+        "title":"Trompete",
+        "image":"img/tromp.jfif",
+        "description":"Copper trompete",
+        "category":"wind",
+        "price":550.99
+       },
+       {
+        "id":"20",
+        "title":"Tuba",
+        "image":"img/tuba.jpg",
+        "description":"Good bass tuba",
+        "category":"wind",
+        "price":900
+       },
+       {
+        "id":"21",
+        "title":"Thrombone",
+        "image":"img/trombon.jpg",
+        "description":"Thrombone",
+        "category":"wind",
+        "price":449.99
+       },
+       {
+        "id":"22",
+        "title":"Multiflute",
+        "image":"img/multiflute.jpg",
+        "description":"Asian traditional multiflute",
+        "category":"wind",
+        "price":200.99
+       },
+       {
+        "id":"23",
+        "title":"Flute",
+        "image":"img/flute.jpg",
+        "description":"Birchtree flute",
+        "category":"wind",
+        "price":349.99
+       },
+       {
+        "id":"24",
+        "title":"Sopilka",
+        "image":"img/sopilka.jpg",
+        "description":"Ukrainian traditional wind instrument",
+        "category":"wind",
+        "price":139.99
+       },
+       {
+        "id":"25",
+        "title":"Saxophone by v-tune",
+        "image":"img/sax.jpg",
+        "description":"Every jazz player`s dream",
+        "category":"wind",
+        "price":349.99
+       },
+       {
+        "id":"26",
+        "title":"Cello Clabio",
+        "image":"img/cello.jpg",
+        "description":"Italian Clabio cello",
+        "category":"string",
+        "price":900.99
+       },
+       {
+        "id":"27",
+        "title":"Stadivarius violin",
+        "image":"img/violin.jpg",
+        "description":"Divine legendary Stadivarius violin",
+        "category":"string",
+        "price":3500000
+       },
+       {
+        "id":"28",
+        "title":"Contabass",
+        "image":"img/contrabass.jpg",
+        "description":"Very nice contabass with",
+        "category":"string",
+        "price":899.99
+       },
+       {
+        "id":"29",
+        "title":"Violin Bow",
+        "image":"img/violinbow.jpg",
+        "description":"Horsehair bow",
+        "category":"string",
+        "price":349.99
+       },
+       {
+        "id":"30",
+        "title":"Amplifier by Marshall",
+        "image":"img/amplifier.jpg",
+        "description":"Legendary Marshall amplifier",
+        "category":"equipment",
+        "price":600.99
+       },
+       {
+        "id":"31",
+        "title":"Guitar pedals by BOSS",
+        "image":"img/pedals.jpg",
+        "description":"Huge amount of guitar pedals",
+        "category":"equipment",
+        "price":400
+       },
+       {
+        "id":"32",
+        "title":"Guitar picks",
+        "image":"img/guitarpick.jpg",
+        "description":"Huge amount of guitar picks",
+        "category":"equipment",
+        "price":2
+       },
+       {
+        "id":"33",
+        "title":"Note stand",
+        "image":"img/notestand.png",
+        "description":"Just a notestand",
+        "category":"equipment",
+        "price":30
+       },
+       {
+        "id":"34",
+        "title":"Cables",
+        "image":"img/cable.jpg",
+        "description":"Huge amount of cables",
+        "category":"equipment",
+        "price":13
+       },
+       {
+        "id":"35",
+        "title":"Guitar tuners by BOSS",
+        "image":"img/tuner.jpg",
+        "description":"Huge amount of guitar tuners",
+        "category":"equipment",
+        "price":5
+       },
+       {
+        "id":"36",
+        "title":"Metronome",
+        "image":"img/metronome.jpg",
+        "description":"Good old metronome",
+        "category":"equipment",
+        "price":8
+       },
+       {
+        "id":"37",
+        "title":"Differents cases for instuments",
+        "image":"img/cases.jpg",
+        "description":"Huge amount of instument cases",
+        "category":"equipment",
+        "price":80
+       },
+       {
+        "id":"38",
+        "title":"Stings",
+        "image":"img/strings.jpg",
+        "description":"Huge amount of guitar strings",
+        "category":"equipment",
+        "price":10
+       }
+
+]

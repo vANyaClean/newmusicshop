@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Odibee+Sans&display=swap');
 body{
     font-family: 'Odibee Sans', cursive;
-    max-width: 1300px;
+    max-width: 1400px;
     margin:auto;
+    color: crimson;
 }
 body nav .logo{
     font-family: 'Metal Mania', cursive;
     font-size: 40px;
+    color: black;
 }
 body #navbarxui{
     background-color:crimson;
@@ -21,17 +23,103 @@ body .contacts{
     display: flex;
     justify-content: space-between;
 }
+body .products .prod-head{
+    text-align: center;
+}
 body .about-us{
     display: flex;
     flex-direction: row-reverse;
-    width: 1000px;
 height: 600px;
 align-items: center;
 margin :auto;    
 
 }
+body .about-us .about-heading{
+    font-size: 90px;
+    
+}
 body .about-us .guitar-about-us{
     width: 600px;
     margin-right: 100px;
 }
+body .carousel .prod-heading{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+   
+}
+body .carousel #carouselInstruments #prev-button,#next-button{
+    background-color: crimson;
 
+}
+body .carousel{
+    margin-bottom: 100px;
+}
+body .choose-heading{
+    text-align: center;
+    font-size: 50px;
+    
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+body .choose-us-row{
+    display: flex;
+
+    justify-content: space-between;
+}
+body .choose-us-row img{
+    width: 100px;
+}
+body .choose-us-row .choose-element{
+    text-align: center;
+
+    font-size: 20px;
+}
+body .why-choose-us{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+body .feedback .feedback-heading{
+ text-align: center;   
+ font-size:50px;
+ margin-bottom: 50px;
+
+}
+body .feedback .feed-list{
+    display: flex;
+    justify-content: space-around;
+
+}
+body .feedback .feed-list img{
+    width:200px;
+    border-radius: 50%;
+}
+body .feedback .feed-list .feed-element{
+    text-align: center;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body .feedback {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+body .products .products-container , .instument-categories{
+    display: flex;
+
+}
+body .products .instument-categories{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    text-decoration: none;
+}
+body .products .instument-categories #categ{
+    text-decoration: none;
+    color: crimson;
+    width: 200px;
+
+}
+body .products .instument-categories #categ :hover{
+    background-color:grey;
+}
