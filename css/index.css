@@ -128,3 +128,8 @@ body .products .instument-categories #categ{
 body .products .instument-categories #categ :hover{
     background-color:grey;
 }
+body .products .prods-grid{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}

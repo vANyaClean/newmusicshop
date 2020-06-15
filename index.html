@@ -24,6 +24,12 @@
                 <a href="https://www.facebook.com/ivanhulihan" target="_blank"><img src="img/facebook.svg" width="30" height="30" alt="facelogo" loading="lazy" class="svglogo"></a>
                 <a href="https://www.instagram.com/prostov.an.ya/?hl=uk" target="_blank"><img src="img/instagram.svg" width="30" height="30" alt="instalogo" loading="lazy" class="svglogo"></a>
               </a>
+              <div>
+                <a class="nav-link openCartLink" href="#modal-cart" data-toggle="modal">
+                  <i class="fas fa-shopping-cart"></i>
+                    Cart<span id="cart-badge" class="badge badge-light"></span>
+                </a>
+            </div>
               </div>
             </div>
           </nav>
@@ -77,15 +83,17 @@
     <article class="products">
         <h2 class="prod-head">Products</h2>
         <p class="prod-head">We provide a huge amount of different musical instruments and all of the gear for beeing a musician</p>
-        <div class="products-container"></div>
-        <div class="instument-categories">
-            <a href="" class="guitar" id="categ">Guitar</a>
-            <a href="" class="drums" id="categ">Drums</a>
-            <a href="" class="keyboard" id="categ">Keyboard</a>
-            <a href="" class="wind" id="categ">Wind</a>
-            <a href="" class="string" id="categ">String</a>
-            <a href="" class="equip" id="categ">Equipment</a>
-         </div>
+        <div class="prods-grid">
+          <div class="row products-container"></div>
+          <div class="instument-categories">
+            <button class="guitar" id="categ">Guitar</button>
+            <button class="drums" id="categ">Drums</button>
+            <button class="keyboard" id="categ">Keyboard</button>
+            <button class="wind" id="categ">Wind</button>
+            <button class="string" id="categ">String</button>
+            <button class="equip" id="categ">Equipment</button>
+          </div>
+        </div>
     </article>
     <article class="why-choose-us">
       <h2 class="choose-heading">Why choose us?</h2>
@@ -130,7 +138,61 @@
                 <h3>Lavash Parish</h3>
                 <p>Cello player for Bombay orchestra</p></li>
         </ul>
-    </article>
+    </article
+    <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img class="card-img-top" src="" alt="">
+              <h4 class="card-title"></h4>
+              <p class="card-text"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+            <button class="btn btn-primary buy" data-id="id">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cartLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="cart-product-list-container"></div>
+          <hr>
+          <div class="container">
+            <form class="form-contacts">
+              <div class="form-group row">
+                <label for="client-name" class="col-4 col-form-label">Your name:</label>
+                <input class="form-control col-8" type="text" id="client-name" required>
+              </div>
+              <div class="form-group row">
+                <label for="client-email" class="col-4 col-form-label">Your email:</label>
+                <input class="form-control col-8" type="email" id="client-email" required>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+          <button class="btn btn-primary order">Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <footer class="contacts" id="contacts">
         <div class="writeus">
             <h3>Write Us</h3>
@@ -146,13 +208,13 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9339229772963!2d23.997302615675515!3d49.84369907939633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add9afe3c7155%3A0x351f412c09ca0528!2z0YPQuy4g0K_RgdC90LDRjywgMTksINCb0YzQstC-0LIsINCb0YzQstC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1sru!2sua!4v1592039199419!5m2!1sru!2sua" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </footer>
-    <script src="js/index.js"></script>
-    <script src="js/cart.js"></script>
-    <script src="js/product-list.js"></script>
-    <script src="js/product-service.js"></script>
-    <script src="js/alert-window.js"></script>
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/products-service.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>    
+    <script defer src="js/index.js"></script>
 
-    
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
