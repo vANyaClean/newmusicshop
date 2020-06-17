@@ -26,7 +26,7 @@ body .contacts{
     display: flex;
     justify-content: space-between;
 }
-body .products .prod-head{
+body .products .prod-head , .prod-head-p{
     text-align: center;
 }
 body .about-us{
@@ -49,8 +49,15 @@ body .carousel .prod-heading{
     text-align: center;
     font-size: 50px;
     margin-bottom: 50px;
-   
 }
+   body .products .prod-head{
+    font-size: 70px;
+}
+body .products .prod-head-p{
+    font-size: 30px;
+}
+
+
 body .carousel #carouselInstruments #prev-button,#next-button{
     background-color: crimson;
 

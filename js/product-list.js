@@ -8,10 +8,11 @@ class ProductList {
         .then(() => this.renderProducts())
         .then(() => this.addEventListeners());    
     }
-    async renderProducts() {
+    async renderProducts(category = 'guitar') {
       let productListDomString = '';
       const products = await this.productService.getProducts();
-      products.forEach(product => {
+      const filteredProducts = products.filter( product => category ? product.category === category : true );
+      filteredProducts.forEach(product => {
         productListDomString += `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="card product">
                       <img class="card-img-top" src="img/products/${product.image}" 
@@ -50,6 +51,12 @@ class ProductList {
             this.handleProductBuyClick(event)
           )
         );
+        document.querySelector('.guitar').addEventListener('click',() => this.renderProducts('guitar'))
+        document.querySelector('.drums').addEventListener('click',() => this.renderProducts('drums'))
+        document.querySelector('.keyboard').addEventListener('click',() => this.renderProducts('keyboard'))
+        document.querySelector('.wind').addEventListener('click',() => this.renderProducts('wind'))
+        document.querySelector('.string').addEventListener('click',() => this.renderProducts('string'))
+        document.querySelector('.equip').addEventListener('click',() => this.renderProducts('equipment'))
     }
     async handleProductInfoClick(event) {
       const button = event.target; // Button that triggered the modal
